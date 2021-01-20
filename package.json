@@ -1,0 +1,19 @@
+{
+  "name": "qa-wolf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://tailwinduikit.com/"
+  },
+  "description": "",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "qawolf": "1.7.0"
+  }
+}
