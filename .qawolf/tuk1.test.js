@@ -4,7 +4,7 @@ let browser;
 let context;
 
 beforeAll(async () => {
-  browser = await qawolf.launch();
+  browser = await qawolf.launch({slowMo:200 });
   context = await browser.newContext();
   await qawolf.register(context);
 });
